@@ -1,0 +1,30 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+class ClaseBase
+{
+    protected:
+    int unaVar = 0;
+    public:
+    ClaseBase(int x):unaVar(x){}
+    void unMetodo(void)
+    {
+        cout<<"unaVar = "<<unaVar<<endl;
+    }
+};
+
+class ClaseDerivada : public ClaseBase  
+{
+    public:
+    ClaseDerivada(int x):ClaseBase(x){} 
+};
+
+int main()
+{
+    ClaseDerivada obj1(50); 
+    obj1.unMetodo(); 
+    _getch();
+    return 0;
+}
+//Respuesta: No, la clase hija solo puede tener una clase padre. Por otro lado, la clase padre si podría tener muchas clases hijas.

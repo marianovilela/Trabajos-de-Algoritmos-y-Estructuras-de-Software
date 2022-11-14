@@ -1,0 +1,2 @@
+La agregación es que este es un tipo de asociación, el cual indica que hay una relación entre clases, en cambio la composición
+insinúa una relación entre clases, en donde la clase hija no puede existir sin la clase padre.

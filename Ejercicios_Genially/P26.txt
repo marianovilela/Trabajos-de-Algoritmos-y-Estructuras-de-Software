@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+class Estudiante {
+
+public:
+    Estudiante(string _curso, int _ciclo) {
+        curso = _curso;
+        ciclo = _ciclo;
+    }
+    ~Estudiante() {}
+protected:
+    string curso;
+    int ciclo;
+};
+
+class Profesor : public Estudiante {
+
+public:
+    Profesor(string curso, int ciclo) : Estudiante(curso, ciclo) {}
+    ~Profesor() {}
+    void DatosProfesor() {
+        cout << "Cuantas tareas debe dejar el profesor?: "; cin >> tareas;
+        cout << "El profesor del curso de " << curso << " del ciclo " << ciclo << " ha dejado " << tareas << " tareas." << endl;
+    }
+private:
+    int tareas;
+};
+
+int main()
+{
+    Profesor* prof = new Profesor("Algoritmos",3);
+    prof->DatosProfesor();
+    system("pause");
+    return 0;
+}

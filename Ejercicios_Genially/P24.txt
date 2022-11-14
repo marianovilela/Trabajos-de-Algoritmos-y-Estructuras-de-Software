@@ -1,0 +1,10 @@
+class MyClass
+{
+public:
+	MyClass() {}//Constructor
+	~MyClass() {}//Destructor
+
+private:
+
+};
+//Respuesta: El destructor de una clase no se puede sobre cargar ya que solo debe de haber uno por clase.

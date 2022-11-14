@@ -1,0 +1,28 @@
+#include <iostream>
+#include <conio.h>
+#include<stdlib.h>
+#include<time.h>
+using namespace std;
+
+class CDatos
+{
+public:
+	void Mostrar_Datos() {
+		srand(time(NULL));
+		 n = rand();
+	cout << "El usuario debe de realizar "<<n<<" cuentas bancarias"<<endl;
+	}
+private:
+	int n;
+};
+
+int main()
+{
+	CDatos* n = new CDatos();
+	n->Mostrar_Datos();
+	system("pause");
+	return 0;
+}
+
+//Respuesta: Cuando el usuario no declara el constructor, C++ se encarga de asignar un constructor implícito por defecto a la clase.
+

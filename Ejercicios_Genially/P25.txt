@@ -1,0 +1,28 @@
+#include <iostream>
+#include <conio.h>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple<int, string>persona(20, "Juan");
+	cout << get<1>(persona) << endl;
+	
+	system("pause");
+	return 0;
+}
+---------------------------------------------------------------------------
+#include <iostream>
+#include <conio.h>
+#include <vector>
+using namespace std;
+int main()
+{
+	vector<string>persona(3);
+	persona[0] = "Juan";
+	persona[1] = "Maria";
+	persona[2] = "Salvador";
+	cout << persona[0]<<", "<< persona[1] << ", "<<persona[2]<<endl;
+	system("pause");
+	return 0;
+}
+//Respuesta: Un vector es una secuencia de elementos ordenados que permite duplicados, en cambio una tupla es una secuencia de elementos ordenados con una longitud determinada.

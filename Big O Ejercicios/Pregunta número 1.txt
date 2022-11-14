@@ -1,0 +1,64 @@
+https://view.genial.ly/61173c27786c590d9881cffd
+Pregunta Nmro 1.
+Codificación
+
+STRUCT:
+
+#include <iostream>
+using namespace std;
+struct Vehiculo
+{
+    string nombre;
+    int garantia;
+}
+carro = { "BMW",10 };
+int main()
+{
+   cout << "La marca del vehiculo es " << carro.nombre << " y los años de garantia son de " << carro.garantia << " años." << endl;
+
+    system("pause");
+    return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CLASS:
+
+#include <iostream>
+using namespace std;
+
+class Estudiante {
+
+public:
+    Estudiante(string _curso, int _ciclo) {
+        curso = _curso;
+        ciclo = _ciclo;
+    }
+    ~Estudiante() {}
+protected:
+    string curso;
+    int ciclo;
+};
+
+class Profesor : public Estudiante {
+
+public:
+    Profesor(string curso, int ciclo) : Estudiante(curso, ciclo) {}
+    ~Profesor() {}
+    void DatosProfesor() {
+        cout << "Cuantas tareas debe dejar el profesor?: "; cin >> tareas;
+        cout << "El profesor del curso de " << curso << " del ciclo " << ciclo << " ha dejado " << tareas << " tareas." << endl;
+    }
+private:
+    int tareas;
+};
+
+int main()
+{
+    Profesor* prof = new Profesor("Algoritmos",3);
+    prof->DatosProfesor();
+    system("pause");
+    return 0;
+}
+
+En conclusión, al realizar una estructura de datos los miembros de esta son públicos originalmente en cambio los miembros de las clases son privados. Podríamos utilizar los miembros de una clase
+siempre y cuando estos miembros estén protegidos y se realice una herencia entre clases. Esa sería la diferencia entre struct y class.

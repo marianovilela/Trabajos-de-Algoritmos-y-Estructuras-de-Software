@@ -1,0 +1,2 @@
+Las excepciones en C++ es un mecanismo que el mismo lenguaje nos proporciona para tratar con los errores que ocurran en el programa.
+Con las excepciones se pueden tratar errores lógicos y errores en tiempo de ejecución.
