@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\lecav\Programas\Visual_Studio\ParcialAlgoritmos\Project\ListaSimple.h(279): warning C4715: 'ListaS<Usuario>::obtPos': not all control paths return a value
+C:\Users\lecav\Programas\Visual_Studio\ParcialAlgoritmos\Project\ListaSimple.h(279): warning C4715: 'ListaS<Archivo>::obtPos': not all control paths return a value
+C:\Users\lecav\Programas\Visual_Studio\ParcialAlgoritmos\Project\ListaSimple.h(256): warning C4715: 'ListaS<Archivo>::obtFinal': not all control paths return a value
+C:\Users\lecav\Programas\Visual_Studio\ParcialAlgoritmos\Project\ListaSimple.h(279): warning C4715: 'ListaS<Datos>::obtPos': not all control paths return a value
+  Project.vcxproj -> C:\Users\lecav\Programas\Visual_Studio\ParcialAlgoritmos\Debug\Project.exe

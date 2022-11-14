@@ -1,0 +1,10 @@
+﻿  main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\Controladora.h(302,8): warning C4101: 'l': unreferenced local variable
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\ListaSimple.h(280): warning C4715: 'ListaS<Usuario>::obtPos': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\ListaSimple.h(280): warning C4715: 'ListaS<Archivo>::obtPos': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\ListaSimple.h(257): warning C4715: 'ListaS<Archivo>::obtFinal': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\Controladora.h(411): warning C4715: 'Controladora::opcionesBuscar': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\ListaSimple.h(280): warning C4715: 'ListaS<Datos>::obtPos': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Project\ListaDoblementeEnlazada.h(291): warning C4715: 'ListaDE<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::obtPos': not all control paths return a value
+  Project.vcxproj -> C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\Parcial Algoritmos V4 Final\Debug\Project.exe
