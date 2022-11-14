@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\ParcialAlgoritmos\Project\ListaDoblementeEnlazada.h(283): warning C4715: 'ListaDE<Usuario>::obtPos': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\ParcialAlgoritmos\Project\ListaDoblementeEnlazada.h(262): warning C4715: 'ListaDE<Archivo>::obtFinal': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\ParcialAlgoritmos\Project\ListaDoblementeEnlazada.h(254): warning C4715: 'ListaDE<Usuario>::obtInicio': not all control paths return a value
+C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\ParcialAlgoritmos\Project\ListaDoblementeEnlazada.h(262): warning C4715: 'ListaDE<Usuario>::obtFinal': not all control paths return a value
+  Project.vcxproj -> C:\Users\erikr\Desktop\University\Ciclo IV\Algoritmos y Estructuras de Datos\Semana 6\TP\ParcialAlgoritmos\Debug\Project.exe
